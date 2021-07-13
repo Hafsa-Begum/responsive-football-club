@@ -12,11 +12,15 @@ h1{
 /* -----------------------------
         home-page styles
 --------------------------------*/
+.home-container{
+    height: 677px;
+}
 .home-page{
     /* width: 1440px; */
-    height: 677px;
+    
     background-color: #2D25A0;
     color:#FFFFFF;
+    padding: 86px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -46,7 +50,7 @@ h1{
 /* ----------------------------
         players list styles 
 -------------------------------*/
-.container{
+.player-container{
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -71,6 +75,10 @@ h1{
 .player-img{
     width: 300px;
     height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
 }
 /*-------------------------- 
         footer style 
@@ -98,7 +106,22 @@ h1{
         media query style 
 ---------------------------------*/
 @media only screen and (max-width: 688px) {
+    .home-page{
+        width:100%;
+        
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .half-width img{
+        margin-top: 50px;
+        margin-bottom: 62px;
+    }
+.player-container{
+    margin-top: 47px;
+}
     .players{
         grid-template-columns: repeat(1, 1fr);
+        
     }
 }
