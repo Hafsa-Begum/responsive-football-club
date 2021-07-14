@@ -57,7 +57,7 @@ h1{
         players list styles 
 -------------------------------*/
 .player-container{
-    margin-top: 70px;
+    margin-top: 70px; 
     margin-bottom: 70px;
 }
 .players-list{
@@ -72,8 +72,8 @@ h1{
     
 }
 .player{
-    width: 330px;
-    height: 474px;
+    /* width: 330px;
+    height: 474px; */
     background-color: #FFFFFF;
     padding:15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -116,42 +116,52 @@ h1{
         width: 100%;
         margin:0
     }
-    .home-container, .player-container, .foot-part{
-        /* display: flex; */
+     .home-container, .player-container, .foot-part{
+        display: flex; 
         justify-content: center;
-        align-items: center;
+        align-items: center; 
      }
     .home-page{
         /* height: 695px; */
-        padding-top: 30px;
+        padding: 0px;
         flex-direction: column;
     }
     
     .half-width{
-        width:90%;
-        padding-left: 15px;
+        width:100%;
+        padding-left: 15px; 
         /* padding-right: 16px; */
     }
 
     .half-width h1{
         font-size: 36px;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
     .half-width img{
-        width: 80%;
+        width: 90%;
         padding-top: 50px;
-        /* padding-left: 15px; */
+         padding-left: 15px; 
         padding-right: 0px;
         padding-bottom: 50px;
        
     }
+    .player-container{
+        margin-top: 5px; 
+        margin-bottom: 43px;
+    }
     .players{
         padding-top: 60px;
         grid-template-columns: repeat(1, 1fr);
-         padding-left: 22px; 
-    }
+         /* padding-left: 22px;  */
+    } 
     .player{
-        padding-left: 23px ;
+        /* padding-left: 28px ; */
+        padding: 15px 15px 15px 15px;
+        margin: 0px 10px;
+      
+    }
+    .player-img{
+        width: 100%;
     }
     /* .foot-part{
         padding:10px; 
