@@ -133,15 +133,22 @@ h1{
     }
     .half-width {
         width: 100%;
+        padding-left: 160px;
         /* flex-direction: column; */
     }
     .half-width img{
         padding-top: 50px;
+    }
+    .player{
+        padding-left: 22px;
     }
     
     .players{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         
+    }
+    .foot-part{
+        padding-left: 50px;
     }
 }
